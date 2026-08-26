@@ -1,0 +1,21 @@
+# LegacyAuth configuration
+settings:
+  freeze: true
+  timeout-seconds: 60
+  max-login-attempts: 5
+  min-password-length: 4
+  allow-chat-before-login: false
+  allow-movement-before-login: false
+  allow-last-ip: false
+messages:
+  register: "§ePlease register with AuthUI."
+  login: "§ePlease log in with AuthUI."
+  registered: "§aAccount registered successfully."
+  logged-in: "§aSuccessfully logged in."
+  wrong-password: "§cIncorrect password."
+  already-registered: "§cThat account is already registered."
+  not-registered: "§cThat account is not registered."
+  timeout: "§cAuthentication timed out."
+  max-attempts: "§cToo many failed login attempts."
+  invalid-password: "§cPassword is too short."
+  unregistered: "§aAccount removed."
